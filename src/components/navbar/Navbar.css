@@ -1,0 +1,129 @@
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.nav-1 {
+  background-color: black;
+}
+
+.nav-2 {
+  background-color: white;
+}
+
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 270px;
+  color: white;
+}
+
+.nav-top-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-top-1 h4 {
+  text-decoration: underline;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-top select {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.nav-top select option {
+  background-color: black;
+  color: white;
+}
+
+.nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-bottom h1 {
+  font-size: 35px;
+}
+
+.nav-bottom-a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-items {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-items:hover {
+  border-bottom: 2px solid black;
+  color: #db4444;
+}
+
+.nav-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-input input {
+  width: 300px;
+  padding: 13px;
+  background-color: rgba(245, 245, 245, 1);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.nav-input svg {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.nav-icons svg {
+  cursor: pointer;
+}
+
+.nav-icons a {
+  color: black;
+}
+
+.nav-icons a:hover {
+  color: #db4444;
+}
+
+.nav-icons svg:hover {
+  color: #db4444;
+}

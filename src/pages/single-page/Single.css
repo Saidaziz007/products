@@ -1,0 +1,116 @@
+.single-top {
+  padding-top: 150px;
+  display: flex;
+  gap: 50px;
+}
+
+.single-left {
+  width: 50%;
+}
+
+.single-right {
+  width: 50%;
+}
+
+.single-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-rating span {
+  color: rgba(0, 255, 102, 1);
+}
+
+.single-price {
+  font-size: 20px;
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.single-info {
+  max-width: 400px;
+  font-weight: 600;
+}
+
+.single-right hr {
+  margin: 15px 0;
+}
+
+.single-counter {
+  display: flex;
+  gap: 20px;
+}
+
+.single-counter-1 {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.single-counter-1 button {
+  padding: 5px 15px;
+  font-size: 25px;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.single-counter-1 button:hover {
+  background-color: rgba(219, 68, 68, 1);
+  color: white;
+}
+
+.single-counter-1 p {
+  padding: 9px 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.single-buy {
+  background-color: rgba(219, 68, 68, 1);
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+}
+
+.single-like {
+  padding: 0 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.single-right-1 {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.single-delivery {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.single-delivery-1 p {
+  text-decoration: underline;
+  color: black;
+}
+
+.single-delivery svg {
+  font-size: 40px;
+}
+
+.single-bottom {
+  padding: 50px 0;
+}
