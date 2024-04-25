@@ -1,5 +1,4 @@
 import React from "react";
-import gucciBag from "../../images/gucci-bag.svg";
 import rating from "../../images/rating.svg";
 import "./Card.css";
 import { CARD_IMG } from "../../static";
@@ -7,8 +6,10 @@ import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleWishlist } from "../../context/wishlistSlice";
 import { Link } from "react-router-dom";
+import { addToCart } from "../../context/cartSlice";
 
 function Card({ data }) {
+  window.scrollTo(0, 0);
   const dispatch = useDispatch();
   const wishList = useSelector((state) => state.wishlist.value);
   return (
@@ -28,7 +29,7 @@ function Card({ data }) {
             <Link to={`/product/${el.id}`}>
               <img src={CARD_IMG[el.id]?.img} alt="" />
             </Link>
-            <button>Add to Cart</button>
+            <button onClick={() => dispatch(addToCart(el))}>Add to Cart</button>
           </div>
           <div className="card-info">
             <h1>{CARD_IMG[el.id]?.title}</h1>

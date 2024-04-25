@@ -48,7 +48,9 @@ function Navbar() {
               <NavLink to={"/like"}>
                 <LuHeart />
               </NavLink>
-              <MdOutlineShoppingCart />
+              <NavLink to={"/cart"}>
+                <MdOutlineShoppingCart />
+              </NavLink>
             </div>
           </div>
         </div>

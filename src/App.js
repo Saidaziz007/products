@@ -5,8 +5,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Like from "./pages/like/Like";
 import Single from "./pages/single-page/Single";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Cart from "./pages/cart/Cart";
+import Checkout from "./pages/checkout/Checkout";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/like" element={<Like />} />
         <Route path="/product/:id" element={<Single />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </div>

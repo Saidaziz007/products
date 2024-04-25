@@ -8,6 +8,7 @@ function Like() {
   const wishList = useSelector((state) => state.wishlist.value);
   const [data, setData] = useState([]);
   useEffect(() => {
+    window.scrollTo(0, 0);
     axios
       .get("/products")
       .then((res) => setData(res.data.products))
